@@ -1,7 +1,5 @@
 ## Stochastic Process 04 - Random Walk Model, Gambler's Ruin Problem and Drug Testing
 
-> 此篇笔记是**『随机过程笔记』**系列的第4篇，记录了马尔可夫链的三个应用 —— **随机游走模型（Random Walk Model）**是一种特定的马尔可夫链，其以相等的概率向左或向右移动一步；**赌徒破产问题(Gambler's Ruin Problem)** 描述了赌徒每次下注或赢或输一定金额，目标是在破产前达到一定金额，该模型预测达到目标的概率。**药物测试（Drug Testing）**利用此框架**比较两种治疗方法**，一旦观察到**显著差异**即**停止测试**，赌徒破产问题推导的一个结论提供了一种判断哪种药物更有效的方法。
-
 
 
 ### 1. Random Walk Model
