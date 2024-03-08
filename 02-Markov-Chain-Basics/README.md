@@ -18,7 +18,7 @@ Let $\{X_n , n = 0, 1, 2, . . .\}$ be a **stochastic process** that takes on a *
 - If $X_n = i$, then **the process** is said to be **in state $i$ at time $n$**.
 
 - suppose that **whenever the process is in state $i$**, there is a (fixed) **Transition Probability $P_{ij}$** that it **will next be in state $j$**, that is 
-  $$P_{i,j} = P \{X_{n+1} = j \ | \ X_n = i\}, \ \ i,j \in S$$
+  $$P_{i,j} = P \{ X_{n+1} = j \ | \ X_n = i \}, \ \ i,j \in S$$
 
 
 ### 2. Markov Property
@@ -64,16 +64,13 @@ $$
 
 ### 4. N-Step Transition Probability
 
-$$
-
-$$
 
 Many Markov chain problems require the **calculation of the probability of
 the state at some future time**, *conditioned on the current state*. 
 - this probability is captured by the **n-step transition probabilities $P_{ij}^n$**, defined by 
 
 $$
-P_{ij}^n = P\{X_{k+n} = j \ | X_k = i\},
+P_{ij}^n = P \{ X_{k+n} = j \ | X_k = i \},
 k, n \geq 0
 $$
 
@@ -82,9 +79,6 @@ $$
 
 ### 5. Chapman-Kolmogorov Equations
 
-$$
-
-$$
 
 $
 \begin{aligned}
