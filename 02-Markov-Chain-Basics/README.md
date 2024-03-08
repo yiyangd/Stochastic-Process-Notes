@@ -13,9 +13,6 @@ define.
 and **complete dependence**.
 ### 1. One-Step Transition Probability
 
-$$
-
-$$
 
 Let $\{X_n , n = 0, 1, 2, . . .\}$ be a **stochastic process** that takes on a *finite or countable* number of possible values in the **State Space $S = \{0, ... , h\}$**.
 - If $X_n = i$, then **the process** is said to be **in state $i$ at time $n$**.
