@@ -64,20 +64,26 @@ For any state $i$ we **let $f_i$ denote the probability** that, *starting in sta
     with *Finite Mean* $$E(N|X_0=i)=\frac{1}{1-f_i}$$
 
 #### 2.3. Proposition
+
+
+
 **State $i \ $**  is  
 
-$$\text{Recurrent iff} \ \sum^{\infty}_{n=1}P^n_{ii}=\infty$$
-$$\text{Transient iff} \ \sum^{\infty}_{n=1}P^n_{ii}<\infty$$
+$$\text{Recurrent iff } \ \sum_{n=1}^{\infty} P_{ii}^n=\infty$$
+
+$$\text{Transient iff } \ \sum_{n=1}^{\infty} P_{ii}^n<\infty$$
 
 **Proof:**
 - Let 
-$$I_n = \cases{
+$$I_n =
+\cases{
 1, \text{if } \ X_n = i  \\
 0, \text{if } \ X_n \neq i
 }$$
 - We have the number of visits that the process is in state $i$
 $$ N = \sum^{\infty}_{n=0}I_n$$
 - Then,
+
 $$ 
 \begin{aligned}
 E(N | X_0=i) &= E(\sum_{n=0}^{\infty}I_n | X_0 = i) \\
@@ -86,6 +92,7 @@ E(N | X_0=i) &= E(\sum_{n=0}^{\infty}I_n | X_0 = i) \\
              &= \sum_{n=0}^{\infty} P_{ii}^n
 \end{aligned}
 $$
+
 - if **State $i$ is Recurrent**, the *expected value is Infinite* 
 - if **State $i$ is Transient**, it will *ONLY be visited a Finite number of times*
   - this implies that for a *Finite-State Markov Chain*, **NOT ALL States can be Transient**
